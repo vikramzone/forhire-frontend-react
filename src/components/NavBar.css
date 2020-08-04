@@ -1,0 +1,25 @@
+.navHeading{
+    font-family: cursive;
+    transition-duration: 0.6s !important;
+    transition: 0.9s;
+    background-color:rgba(0, 10, 20, 0.3);
+    border-radius: 20%;
+    color:white;
+    padding: 7px;
+}
+.navHeading:hover{
+    background-color:rgba(12, 10, 20, 0.9);
+}
+
+.navButton{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition-duration: 0.4s !important;
+    transition: 0.4s;
+    width: auto;
+    font-size:15px;
+    transform:scale(1);
+}
+.navButton:hover{
+    background-color: rgba(20, 0,0, 0.3);
+    transform:scale(1.11);
+}

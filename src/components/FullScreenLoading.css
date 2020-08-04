@@ -1,0 +1,33 @@
+
+.loader{
+  position: absolute;
+  top: 10%;
+  width: 78%;
+  height: 100%;
+  z-index: 9999;
+  background: rgba(10,5,5,0.02);
+  border-radius: 5%;
+  backdrop-filter:blur(2px);
+}
+
+#loadicon{
+  position: fixed;
+  top: 40%;
+  left:50%;
+  z-index: 9999;
+  border-radius: 100%;
+  filter:grayscale(100%) opacity(0.9) 
+  
+}
+  
+
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
